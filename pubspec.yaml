@@ -1,0 +1,34 @@
+name: kodekid
+description: Interactive Python Tutor for Kids 1.0
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/lessons/
+
+dependencies:
+  flutter: { sdk: flutter }
+  cupertino_icons: ^1.0.8
+  # Routing
+  go_router: ^14.2.0
+  # State management
+  flutter_riverpod: ^2.5.1
+  # Firebase core services
+  firebase_core: ^3.5.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  firebase_storage: ^12.3.3
+  # UI
+  google_fonts: ^6.2.1
+
+  # Code editor & syntax highlight (placeholder packages for future)
+  highlight: ^0.7.0
+
+dev_dependencies:
+  flutter_test: { sdk: flutter }
+  flutter_lints: ^4.0.0

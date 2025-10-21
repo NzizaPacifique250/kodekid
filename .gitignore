@@ -1,0 +1,45 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+.pub-cache/
+build/
+coverage/
+android/.gradle/
+android/app/build/
+ios/Pods/
+ios/Runner.xcworkspace/
+web/.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# Firebase/Secrets
+**/google-services.json
+**/GoogleService-Info.plist
+**/.runtimeconfig.json
+firebase-debug.log
+
+# Backend Python
+backend/python_service/.venv/
+backend/python_service/__pycache__/
+backend/python_service/.mypy_cache/
+backend/python_service/.pytest_cache/
+backend/python_service/dist/
+backend/python_service/build/
+
+# Node/Firebase Hosting
+functions/node_modules/
+**/node_modules/
+
+# Misc
+.DS_Store
+.env
+.env.*

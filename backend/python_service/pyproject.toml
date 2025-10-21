@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kodekid-sandbox"
+version = "0.1.0"
+description = "Sandboxed Python execution microservice for KodeKid"
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi==0.115.5",
+  "uvicorn[standard]==0.30.6",
+  "pydantic==2.9.2",
+  "restrictedpython==7.4",
+]
